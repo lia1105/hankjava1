@@ -8,7 +8,18 @@ public class PokerGame {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int[] flowers = {0x2660, 0x2665, 0x2666, 0x2663};
+		int[] n = new int[10];
+		Card[] c = new Card[10];
+		System.out.println(n[0]);
+		c[0] = new Card(50);
+		System.out.println(c[0].get());
+		
+		Poker poker = new Poker();
+		poker.shuffle();
+		poker.print();
+		
+		
+		/*int[] flowers = {0x2660, 0x2665, 0x2666, 0x2663};
 		int[] nums = new int[5];
 		nums[0] =77;
 		nums[4] =98;
@@ -45,7 +56,7 @@ public class PokerGame {
 		
 		}
 		
-		System.out.println(c);
+		System.out.println(c);*/
 	}
 
 }
