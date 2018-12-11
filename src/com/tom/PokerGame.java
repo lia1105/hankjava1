@@ -15,7 +15,8 @@ public class PokerGame {
 		System.out.println(c[0].get());
 		
 		Poker poker = new Poker();
-		poker.shuffle();
+//		poker.add();
+//		poker.shuffle();
 		poker.print();
 		
 		
